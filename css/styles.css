@@ -1,0 +1,187 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #45a29e;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+    font-weight: 400;
+} 
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+    padding: 2% 15% 8%;
+    text-align: left;
+}
+
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.iphone6-div {
+    position: relative;
+}
+
+.title-image {
+    width: 80%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 10%;
+}
+
+/* Features Section */
+
+ #features {
+    position: relative;
+    z-index: 1;
+} 
+
+.features-column {
+    padding: 4.5%;
+}
+
+.features-icon {
+    margin-bottom: 2rem;
+    color:#14a76c;
+}
+
+.features-icon:hover {
+    color: #45a29e;
+}
+
+.features-head {
+    font-weight: 700;
+    font-size: 1.4rem;
+} 
+
+/* Testimonials Section */
+
+#testimonials {
+    background-color: #45a29e;
+}
+
+.testimonial-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #45a29e;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.pricing-heading {
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 1.5;
+}
+
+.breed-name {
+    font-weight: 700;
+}
+
+
+/* Footer section */
+
+.footer-icon {
+    padding: 20px 10px;
+}
+
+.copyright {
+    font-weight: 500;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+
